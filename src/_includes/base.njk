@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/whats-2.png">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+     <title>{{ title }}</title>
+<body class="bg-gray-800 text-gray-200 ">
+
+        {%- include 'header.njk' -%}
+        <main>
+        {{ content | safe }}
+        </main>
+        {%- include 'footer.njk' -%}
+
+   
+    
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>

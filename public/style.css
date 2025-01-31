@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'aileron';
+
+  src: url('/assets/fonts/aileron.woff') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+body{
+  font-family: 'aileron', serif;
+}
